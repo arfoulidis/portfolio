@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Josefin Sans, Arial, Helvetica, sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
 }
-
+/*
 header {
     position: fixed;
     top: 1rem;
@@ -20,7 +20,7 @@ header {
     background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(8px);
     color: white;
-    padding: 1rem 1.5rem;
+    padding: 1.2rem 1.8rem;
     border-radius: 3rem;
     z-index: 1000;
 }
@@ -84,7 +84,7 @@ li a:hover::before {
     font-size: 2rem;
     display: none;
 }
-
+*/
 section {
     min-height: 100vh;
     padding: 8rem 12%;
@@ -230,18 +230,6 @@ section {
     color: transparent;
 }
 
-::-webkit-scrollbar {
-    width: 20px;
-}
-
-::-webkit-scrollbar-track {
-    background-color: rgb(219, 291, 219);
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #009dff, #ff00ff);
-}
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -270,6 +258,7 @@ section {
 
 .project-card img {
     width: 12vw;
+    min-width: 200px;
     border-radius: 1rem;
     background-color: white; /* Add a white border to the image */
     padding: 2rem;

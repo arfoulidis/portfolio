@@ -444,4 +444,11 @@ footer ul li a {
     footer ul {
         gap: 1rem;
     }
+
+    .section-title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 3rem;
+    }
 }

@@ -86,7 +86,7 @@ li a:hover::before {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 70vh;
     padding: 8rem 12%;
     width: 100%;
     position: relative;
@@ -257,8 +257,8 @@ section {
 }
 
 .project-card img {
-    width: 15vw;
-    min-width: 150px;
+    width: 14vw;
+    min-width: 200px;
     height: auto;
     border-radius: 1rem;
     background-color: white; /* Add a white border to the image */
@@ -277,9 +277,11 @@ section {
 }
 
 .project-card h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
+
+
 
 .input-box {
     display: flex;
@@ -288,7 +290,7 @@ section {
     justify-content: center;
     text-align: center;
     gap: 2rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 
 .input-box input {
@@ -314,10 +316,11 @@ section {
     transform: translate(50%, -50%);
 }
 
+
 footer {
     bottom: 0;
     left: 0;
-    height: 10rem;
+    height: 1rem;
     width: 100%;
     display: flex;
     flex-direction: column;

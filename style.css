@@ -7,6 +7,8 @@
     scroll-behavior: smooth;
     list-style: none;
 }
+
+
 /*
 header {
     position: fixed;
@@ -345,6 +347,32 @@ footer ul li a {
     margin-top: 2rem;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 20px; /* Adjusted from 40px */
+    right: 20px;  /* Adjusted from 40px */
+    width: 60px;  /* Increase size of the button */
+    height: 60px; /* Increase size of the button */
+    background-color: #000000;
+    color: white;
+    border-radius: 50%; /* Circular shape */
+    text-align: center;
+    font-size: 24px; /* Font size for the icon */
+    line-height: 60px; /* Center icon vertically */
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    z-index: 1000;
+    border: 2px solid #fff; /* White border */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.back-to-top:hover {
+    background-color: #555;
+    transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+
+
 @media (max-width: 1280px) {
     header {
         padding: 1rem 2rem;
@@ -451,4 +479,6 @@ footer ul li a {
         font-weight: 600;
         margin-bottom: 3rem;
     }
+
+
 }

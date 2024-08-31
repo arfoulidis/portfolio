@@ -350,7 +350,7 @@ footer ul li a {
 .back-to-top {
     position: fixed;
     bottom: 20px; /* Adjusted from 40px */
-    right: 20px;  /* Adjusted from 40px */
+    right: 40px;  /* Adjusted from 40px */
     width: 60px;  /* Increase size of the button */
     height: 60px; /* Increase size of the button */
     background-color: #000000;

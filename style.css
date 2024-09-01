@@ -261,6 +261,7 @@ section {
 .project-card img {
     width: 14vw;
     min-width: 200px;
+    max-height: 200px;
     height: auto;
     border-radius: 1rem;
     background-color: white; /* Add a white border to the image */
